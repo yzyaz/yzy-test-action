@@ -2,6 +2,7 @@
   "name": "yzy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yzyaz.github.io/yzy-test-action",
   "dependencies": {
     "@rematch/core": "^2.2.0",
     "@rematch/immer": "^2.1.3",
