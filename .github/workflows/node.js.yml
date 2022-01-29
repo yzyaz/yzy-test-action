@@ -15,7 +15,7 @@ jobs:
           npm i
           npm run build
 
-      - name: deploy
+      - name: deploy file to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
