@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/yzy-test-action/static/css/main.a25aaa9f.css",
+    "main.css": "/yzy-test-action/static/css/main.c5b8f872.css",
     "main.js": "/yzy-test-action/static/js/main.42476f16.js",
     "static/js/27.902158ad.chunk.js": "/yzy-test-action/static/js/27.902158ad.chunk.js",
     "static/media/logo.svg": "/yzy-test-action/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/yzy-test-action/index.html"
   },
   "entrypoints": [
-    "static/css/main.a25aaa9f.css",
+    "static/css/main.c5b8f872.css",
     "static/js/main.42476f16.js"
   ]
 }
