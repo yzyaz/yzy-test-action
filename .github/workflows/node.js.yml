@@ -45,6 +45,13 @@ jobs:
       #     ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
       #     local_path: './build/*'
       #     remote_path: '/dockerDir/nginx/project/yzy-test-action'
+  
+      - name: 前端文件打包📦
+        run: |
+          cd ./build 
+          sudo apt-get install unzip // 先压缩文件
+          zip -r build.zip ./* -r     // 压缩dist目录
+          ls
 
       ## 部署至自己的服务器 ssh-action使用密码
       - name: executing remote ssh commands using password
