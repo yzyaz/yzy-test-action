@@ -53,5 +53,5 @@ jobs:
           host: 106.52.76.36
           username: root
           password: yu1092517087.
-          port: ${{ secrets.PORT }}
+     #    port: ${{ secrets.PORT }}
           script: whoami
