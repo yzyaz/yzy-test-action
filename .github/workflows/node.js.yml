@@ -62,7 +62,8 @@ jobs:
           password: yu1092517087.
           port: 22
           source: './build/*'
-          target: 'test11'
+          target: '/dockerDir/nginx/project/yzy-test-action'
+          rm: true
 
       # - name: ssh-action使用密码
       #   uses: appleboy/ssh-action@master
