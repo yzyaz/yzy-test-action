@@ -48,9 +48,10 @@ jobs:
   
       - name: 前端文件打包📦
         run: |
+          ls
           cd ./build 
-          sudo apt-get install unzip // 先压缩文件
-          zip -r build.zip ./* -r     // 压缩dist目录
+          sudo apt-get install unzip 
+          zip -r build.zip ./* -r  
           ls
 
       ## 部署至自己的服务器 ssh-action使用密码
