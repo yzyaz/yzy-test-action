@@ -64,6 +64,7 @@ jobs:
           source: './build/*'
           target: '/dockerDir/nginx/project/yzy-test-action'
           rm: true
+          strip_components: 1
 
       # - name: ssh-action使用密码
       #   uses: appleboy/ssh-action@master
