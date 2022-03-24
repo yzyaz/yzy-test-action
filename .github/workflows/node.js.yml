@@ -44,4 +44,4 @@ jobs:
           server: '${{ secrets.SERVER_IP }}'
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           local_path: './build/*'
-          remote_path: '/yzy/yzy-test-action'
+          remote_path: '/dockerDir/nginx/project/yzy-test-action'
