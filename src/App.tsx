@@ -17,7 +17,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
           test actions2
           <p>
-            Edit <code>src/App.tsx</code> and save to reload.测试手动触发
+            Edit <code>src/App.tsx</code> and save to reload.有数1111
           </p>
           <a
             className="App-link"
